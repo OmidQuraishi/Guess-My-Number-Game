@@ -18,6 +18,6 @@ check.addEventListener("click", function () {
     message.textContent = "Your Guess is low 📉";
   } else if (guess.value == secrateNumber) {
     message.textContent = "your win 🎉";
-    document.body.style.backgroundColor = "red";
+    document.body.style.backgroundColor = "#60b347";
   }
 });
